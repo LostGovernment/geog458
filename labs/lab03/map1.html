@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+<<<<<<< HEAD
     <meta charset="UTF-8">
     <title>Earthquakes in Japan</title>
     <meta name = "viewport" content="initial-scale = 1, maximum-scale = 1,user-scalable = no">
+=======
+    <meta charset="utf-8">
+    <title>Earthquakes in Japan</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+>>>>>>> 7c2351def24b77827598c43ec28103d64180474f
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet">
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
     <style>
         body {
+<<<<<<< HEAD
     margin: 0;
     padding: 0;
 }
@@ -18,13 +26,22 @@
     bottom: 0;
     width: 100%;
 }
+=======
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+>>>>>>> 7c2351def24b77827598c43ec28103d64180474f
     </style>
 </head>
-<body>
-<!-- Our web map and content will go here -->
-<div id="map"></div>
-<script>
 
+<<<<<<< HEAD
     // 1. Create a map object.
     mapboxgl.accessToken =
     'pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw';
@@ -37,7 +54,21 @@ let map = new mapboxgl.Map({
 
     // 2. Add a base map.
     L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png').addTo(mymap);
+=======
+<body>
+    <div id="map"></div>
+    <script>
+        mapboxgl.accessToken =
+            'pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw';
+        let map = new mapboxgl.Map({
+            container: 'map', // container ID
+            style: 'mapbox://styles/mapbox/dark-v10',
+            zoom: 5, // starting zoom
+            center: [138, 38] // starting center
+        });
+    </script>
+>>>>>>> 7c2351def24b77827598c43ec28103d64180474f
 
-</script>
 </body>
+
 </html>

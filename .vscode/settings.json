@@ -2,7 +2,15 @@
     "cSpell.words": [
         "assistances",
         "Basemaps",
+        "choropleth",
+        "geosearch",
         "Geovisualizations",
-        "servlet"
-    ]
+        "loadingdata",
+        "placemarks",
+        "servlet",
+        "tileset",
+        "vbreak",
+        "webmap"
+    ],
+    "livePreview.defaultPreviewPath": "/weeks/week04/proportional.html"
 }
